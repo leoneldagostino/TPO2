@@ -1,0 +1,88 @@
+*{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,header,main,footer{
+    border: 3px darkblue solid;
+    border-radius: 15px;
+    min-height: 50px;
+    min-width: 0%;
+    margin: 15px;
+}
+body{
+    background-color: rgb(47, 10, 82);
+    box-shadow: 0 0 0.5rem rgb(83,78,76) ;
+}
+
+aside{
+    background-color:rgb(99, 7, 7);
+}
+
+section{
+    border-radius: 15px;
+}
+
+main{
+    min-width:60%;
+    overflow: auto;
+}
+main>aside{
+    border: 2px blue solid;
+    border-radius: 15px;
+    margin: 0.5rem;
+    min-height: 180px;
+    float: right;
+    width: 40%;
+}
+main>div{
+    border: 2px blue solid;
+    min-height: 180px;
+    float:left;
+    width: 55%;
+}
+
+
+article{
+    border: 2px red solid;
+    border-radius: 15px;
+    margin: 0.5rem;
+    min-height: 100px;
+}
+.header-logo{
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+.header-menubar{
+    margin: 0.5rem 0.5rem 1rem;
+    left:auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+
+}
+.header-menubar li{
+    margin: 0 0.5rem 0;
+    float: left;
+    font-weight: 700;
+    text-align:right;
+
+}
+.header-menubar ul{
+    list-style: none;
+}
+.header-menubar a{
+    text-decoration: none;
+    color: black;
+}
+body>header{
+    background-color: rgb(21, 9, 128);
+}
+body>main{
+    background-color: darkgrey;
+}
+body>footer{
+    background-color: darkgrey;
+}
