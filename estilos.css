@@ -86,3 +86,6 @@ body>main{
 body>footer{
     background-color: darkgrey;
 }
+a:link{color: black;}
+a:hover{color: aqua;}
+a:visited{color:none;}
