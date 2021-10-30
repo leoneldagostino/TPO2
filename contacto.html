@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" href="https://fmmvibe.com/uploads/pages_media/0_2021.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet">
     <title>Football Manager</title>
 </head>
 <body>
@@ -19,5 +22,42 @@
             </ul>
         </nav>
     </header>
+    <main style="text-align: center;">
+        <h1>Quieres recibir mas informacion sobre football manager y sus actualizacion? Completa este formulario</h1>
+        <div class="formulario">
+            <form action="" id="formulario">
+                <div class="usuario-formulario">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Escriba su nombre de usuarios"><span class="error" id="error-usuario"></span>
+                </div>
+                <div class="nombre-formulario">
+                    <label for="nombre" name="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre completo"><span class="error" id="error-nombre"></span>
+                </div>
+                <div class="contrasena-formulario ">    
+                    <label for="contrasena" name="contrasena">contraseña</label>
+                    <input type="password" name="contrasena" id="contrasena" placeholder="Escriba su contraseña"><span class="error" id="error-contrasena"></span>
+                </div>
+                <div class="confirmacion-formulario ">    
+                    <label for="confirmacion" name="contrasena">contraseña</label>
+                    <input type="password" name="confirmacion" id="confirmacion" placeholder="Escriba nuevamente su contraseña"><span class="error" id="error-confirmacion"></span>
+                </div>
+                <div class="correo-formulario">
+                    <label for="correo" name="correo">correo electronico</label>
+                    <input type="email" name="correo" id="correo" placeholder="Escriba su correo"><span class="error"id="error-correo"></span>
+                </div>
+                <div>
+                    <button type="submit" class="enviar" onclick="return validar(this.form)">Enviar datos</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        
+        <p id="pie">Derechos Reservados © Leonel D'agostino </p>
+    </footer>
+    <script src="main.js"></script>
+
 </body>
 </html>
